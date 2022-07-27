@@ -97,6 +97,9 @@ background-size: cover
 }
 
 .card-comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 16rem;
     height: 12rem;
     margin: 0.7rem;
@@ -104,11 +107,42 @@ background-size: cover
     background-color: hsl(300, 43%, 22%);
     border-radius: 0.5rem;
 }
+.card-container {
+    display: flex;
+    font-size: 12px;
+
+}
 
 .card-comment_avatar {
+
     width:2rem;
     height: 2rem;
     border-radius: 50%;
+}
+
+.comment {
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.name-surname{
+    color: white;
+    font-size: 700;
+    font-size: 14px;
+}
+
+.status {
+    color: hsl(333, 80%, 67%);
+    font-size: 700;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    margin-left: 1rem;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
