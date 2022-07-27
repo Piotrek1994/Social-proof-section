@@ -28,6 +28,7 @@ background-size: cover
 .card-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 50%;
 }
 
@@ -36,30 +37,70 @@ background-size: cover
     flex-direction: column;
     justify-content: space-between;
     width: 20rem;
+    height: 100%;
     
 }
+
+.headline {
+    font-size: 2.8rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+
+}
+
 .card-top-right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-end;
+    height: 11rem;
+    width: 30rem;
 
 }
 .banner {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 1.2rem;
     width: 22rem;
     height: 2.7rem;
     background-color: hsl(300, 24%, 96%);
     border-radius: 5px;
     color: hsl(300, 43%, 22%);
     font-weight: 700;
+    font-size: 14px;
+}
+
+.banner-top {
+    margin-right: 5rem;
+}
+
+.banner-mid {
+    margin-right: 3rem;
+}
+.banner-bottom {
+    margin-right: 1rem;
 }
 
 .star-container {
     margin-right: 1.3rem;
 }
 
+.star-container img {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.card-comment {
+    width: 15rem;
+    height: 15rem;
+    background-color: hsl(300, 43%, 22%);;
+}
 
 footer {
 	position: absolute;
