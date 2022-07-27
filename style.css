@@ -46,14 +46,17 @@ background-size: cover
 }
 .banner {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 1rem;
     width: 22rem;
     height: 2.7rem;
     background-color: hsl(300, 24%, 96%);
     border-radius: 5px;
 }
 
+.star-container {
+    margin-right: 2rem;
+}
 
 
 footer {
